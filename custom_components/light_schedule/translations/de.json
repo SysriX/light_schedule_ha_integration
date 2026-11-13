@@ -1,0 +1,12 @@
+{
+  "services": {
+    "set_enabled": {
+      "name": "Profil ein-/ausschalten",
+      "description": "Schaltet ein Zeitsteuerungs-Profil aktiv oder inaktiv (ID siehe Attribut profiles von sensor.<raum>_light_schedule).",
+      "fields": {
+        "profile_id": {"name": "Profil-ID", "description": "ID des Profils"},
+        "enabled": {"name": "Aktiv", "description": "true = aktiv"}
+      }
+    }
+  }
+}

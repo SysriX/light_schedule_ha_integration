@@ -1,0 +1,12 @@
+{
+  "services": {
+    "set_enabled": {
+      "name": "Enable or disable profile",
+      "description": "Enables or disables a schedule profile (ID: see attribute profiles of sensor.<room>_light_schedule).",
+      "fields": {
+        "profile_id": {"name": "Profile ID", "description": "ID of the profile"},
+        "enabled": {"name": "Enabled", "description": "true = enabled"}
+      }
+    }
+  }
+}
