@@ -2,6 +2,9 @@
 
 Time-based light control for Home Assistant with any number of profiles per room. Each profile turns its lights on at set times (and optionally off again), on selected weekdays and optionally only within a date range, with conditions for presence, alarm state and brightness.
 
+![Light Schedule preview](docs/images/preview.png)
+*Schedule tab in the [Room Panel card](https://github.com/SysriX/room_panel_ha_card): profiles with weekdays, on/off times and date range (UI in German)*
+
 Integration domain: `light_schedule`  
 Version: 1.4.0  
 UI language of the built-in texts (reasons, names): German
